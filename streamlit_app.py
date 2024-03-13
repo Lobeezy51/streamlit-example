@@ -7,6 +7,7 @@ st.title('Streamlit Example')
 st.write('Hello World! :sunglasses:')
 x = st.text_input('Favorte Movie')
 st.write(f'Your favorite movie is: {x}')
+st.subheader('This is a subheader with a divider', divider='rainbow')
 st.write(pd.DataFrame({
     'first column': [1, 2, 3, 4],
     'second column': [10, 20, 30, 40],
